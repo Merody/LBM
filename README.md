@@ -1,3 +1,3 @@
-# Tutorial Install Moist Linear Baroclinic Model
+# Tutorial Install Moist Linear Baroclinic Model di Linux
 ## 1. Download File
-![IMG_20230105_122407](https://github.com/Merody/LBM/assets/88936922/30712ac9-8074-4145-a359-83fcfbbad672)
+      File yang diperlukan dapat di download di website [ccsr](https://ccsr.aori.u-tokyo.ac.jp/~lbm/sub/lbm_4.html)
