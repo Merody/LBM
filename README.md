@@ -80,7 +80,7 @@ setelah itu masuk ke $LNHOME/model/src/sysdep/Makedef.linux
 
 dan edit compilernya menjadi icc dan ifort
 
-gambar 8
+![Screenshot from 2024-04-22 00-37-56](https://github.com/Merody/LBM/assets/88936922/bf862e57-3f3f-4ccd-a598-96bd53aa5497)
 
 ### 3.2. Membuat file lib dan bin linux
 
@@ -184,8 +184,8 @@ yang harusnya terjadi adalah seperti ini
 
 membuatnya sama seperti basic states atmosfer yaitu di file SETPAR seperti ini
 
-![image](https://github.com/Merody/LBM/assets/88936922/c0f63aab-3ff8-42d9-8c2d-df42da8d14f6)
-![image](https://github.com/Merody/LBM/assets/88936922/17b8f898-aac6-421f-8522-1f549c849ee5)
+![Screenshot from 2024-04-21 17-44-40](https://github.com/Merody/LBM/assets/88936922/ad8cb549-1f5e-4ffe-8cc6-ad9619e5c03a)
+![Screenshot from 2024-04-21 17-45-12](https://github.com/Merody/LBM/assets/88936922/33920907-7716-45aa-b967-fe975f0fa47a)
 
 kemudian run code
 
@@ -199,8 +199,8 @@ Contoh forcing terdapat pada file $LNHOME/sample. Untuk LBM yaitu frc.t21l20.cla
 
 edit file SETPAR untuk konfigurasi forcing yang dibutuhkan
 
-![Screenshot from 2024-04-21 14-32-17(2)](https://github.com/Merody/LBM/assets/88936922/3d21afd8-4d31-485f-92bb-478b3ff39b87)
-![Screenshot from 2024-04-21 14-32-32](https://github.com/Merody/LBM/assets/88936922/f40a3428-6a30-4c6c-afcf-d2102ba5d74a)
+![Screenshot from 2024-04-21 17-46-16](https://github.com/Merody/LBM/assets/88936922/9ca4f04f-c825-441e-8734-98cc35735ae4)
+![Screenshot from 2024-04-21 14-32-32(1)](https://github.com/Merody/LBM/assets/88936922/a1e4e7f6-d80e-4176-95c4-102748e6277c)
 
 membuat file input forcing dan output yaitu $LNHOME/data/Forcing dan $LNHOME/data/Output untuk memudahkan running model
 
@@ -215,7 +215,7 @@ kemudian untuk forcing MLBM
 
     ./mkfrcsst
 
-gambar 22
+![Screenshot from 2024-04-21 17-38-40](https://github.com/Merody/LBM/assets/88936922/4fd3b015-cf22-4401-aa90-4e7263ef0703)
 
 ## 5. Running Model
 
@@ -229,15 +229,13 @@ $LNHOME/model/sh/tingr/linear-run.csh merupakan file untuk running model MLBM. C
 
 edit file linear_run.moist-test.csh menjadi seperti berikut
 
-gambar 23
+![Screenshot from 2024-04-22 00-29-39](https://github.com/Merody/LBM/assets/88936922/cd86895c-f411-40c6-98af-a9e47281f922)
+![Screenshot from 2024-04-22 00-29-51](https://github.com/Merody/LBM/assets/88936922/f88a2e6d-fae9-430b-83cb-7e6c14b4b33e)
+![Screenshot from 2024-04-22 00-30-24](https://github.com/Merody/LBM/assets/88936922/167b0a27-32d5-4ebd-84d1-ff96dd10d8a7)
 
 kemudian run
 cd $LNHOME/model/sh/tingr
 ./linear-run.moist-test.csh
-
-akan muncul log message seperti ini
-
-gambar 24
 
 dan terdapat beberapa file pada $LNHOME/data/Output
 
