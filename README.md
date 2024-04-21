@@ -184,7 +184,8 @@ yang harusnya terjadi adalah seperti ini
 
 membuatnya sama seperti basic states atmosfer yaitu di file SETPAR seperti ini
 
-gambar 20
+![image](https://github.com/Merody/LBM/assets/88936922/c0f63aab-3ff8-42d9-8c2d-df42da8d14f6)
+![image](https://github.com/Merody/LBM/assets/88936922/17b8f898-aac6-421f-8522-1f549c849ee5)
 
 kemudian run code
 
