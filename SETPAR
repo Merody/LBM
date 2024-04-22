@@ -1,0 +1,66 @@
+ &nmfin cfm='/home/merody/Downloads/moist/ln_solver/bs/gt3/gridx.t21',
+        cfg='/home/merody/Downloads/moist/ln_solver/data/Forcing/fasesst8new.grd'
+        fact=1.0,1.0,1.0,1.0,1.0
+ &end
+
+ &nmfgt cfs='/home/merody/Downloads/moist/ln_solver/data/Output/psi',
+        cfc='/home/merody/Downloads/moist/ln_solver/data/Output/chi',
+        cfu='/home/merody/Downloads/moist/ln_solver/data/Output/u',
+        cfv='/home/merody/Downloads/moist/ln_solver/data/Output/v',
+        cfw='/home/merody/Downloads/moist/ln_solver/data/Output/w',
+        cft='/home/merody/Downloads/moist/ln_solver/data/Output/t',
+        cfz='/home/merody/Downloads/moist/ln_solver/data/Output/z',
+        cfp='/home/merody/Downloads/moist/ln_solver/data/Output/p',
+        cfq='/home/merody/Downloads/moist/ln_solver/data/Output/q',
+	cftc='/home/merody/Downloads/moist/ln_solver/data/Output/dtc',
+	cfqc='/home/merody/Downloads/moist/ln_solver/data/Output/dqc',
+	cftl='/home/merody/Downloads/moist/ln_solver/data/Output/dtl',
+	cfql='/home/merody/Downloads/moist/ln_solver/data/Output/dql',
+	cfpr='/home/merody/Downloads/moist/ln_solver/data/Output/pr',
+        cfo='/home/merody/Downloads/moist/ln_solver/data/Output/mlbm.grd',
+        fact=1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,
+        opl=t,
+ &end
+
+ &nmbs  cbs0='/home/merody/Downloads/moist/ln_solver/bs/gt3/ncepwin.t21l20',
+        cbs='/home/merody/Downloads/moist/ln_solver/bs/grads/ncepwin.t21l20.grd'
+ &end
+
+ &nmncp cncep='/home/merody/Downloads/moist/ln_solver/bs/ncep/ncep.clim.y58-97.t21.grd',
+        cncep2='/home/merody/Downloads/moist/ln_solver/bs/ncep/ncep.clim.y58-97.ps.t21.grd',
+        calt='/home/merody/Downloads/moist/ln_solver/bs/gt3/grz.t21',
+        kmo=12, navg=3, ozm=f, osw=f, ousez=t
+ &end
+
+ &nmecm cecm='/home/merody/Downloads/moist/ln_solver/bs/ecmwf/ERA40.clim.t21.grd',
+        calt='/home/merody/Downloads/moist/ln_solver/bs/gt3/grz.t21',
+        kmo=12, navg=3, ozm=f, osw=f
+ &end
+
+ &nmvar ovor=f, odiv=f, otmp=t, ops=f, osph=f
+ &end
+
+ &nmhpr khpr=1,
+        hamp=-2.,
+        xdil=25.,
+        ydil=15.,
+        xcnt=153.,
+        ycnt=-7.
+ &end
+
+ &nmvpr kvpr=2,
+        vamp=8,
+        vdil=20.,
+        vcnt=0.45
+ &end
+
+ &nmred cdr='/home/merody/Downloads/moist/ln_solver/matrix.moi',
+        cfo='/home/merody/Downloads/moist/ln_solver/matrix.moi/mat/MAT.t21l11m6.ncepannzm.moi.tmp.dat'
+ &end
+
+ &nmall owall=t
+ &end
+
+ &nmcls oclassic=f
+ &end
+
