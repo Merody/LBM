@@ -250,7 +250,7 @@ SETPAR untuk post Proses adalah sebagai berikut
 ![Screenshot from 2024-04-21 14-32-17(3)](https://github.com/Merody/LBM/assets/88936922/e4afd265-3b97-4d94-9b7f-d68718cb2088)
 ![Screenshot from 2024-04-21 14-32-32(1)](https://github.com/Merody/LBM/assets/88936922/f959afb4-c03a-4517-9d1e-968d72ce9f21)
 
-kemudian
+kemudian untuk menyatukan file menggunakan kode:
 
     cd $LNHOME/solver/util
     ./gt2gr
