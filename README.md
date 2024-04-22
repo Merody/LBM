@@ -261,7 +261,7 @@ dengan log message setelahnya adalah seperti berikut
 ![Screenshot from 2024-04-21 14-39-59](https://github.com/Merody/LBM/assets/88936922/811f2bab-a50b-4620-9cbe-fcfb73737e97)
 ![Screenshot from 2024-04-21 14-40-03](https://github.com/Merody/LBM/assets/88936922/0f03ad77-fac6-4199-b86a-e714a5e88d31)
 
-File hasil MLBM telah berhasil dibuat dalam bentuk binary data .grd. Untuk memudahkan pengolahan dan visualisasi binary data dapat di konversi ke netCDF menggunakan CDO maupun GraDS.
+File hasil MLBM telah berhasil dibuat dalam bentuk binary data .grd. Untuk memudahkan pengolahan dan visualisasi, binary data .grd dapat di konversi ke netCDF menggunakan CDO maupun GraDS.
 
 ![Screenshot from 2024-04-21 14-40-24](https://github.com/Merody/LBM/assets/88936922/db772da5-bb5d-409c-9404-fc476df14cc6)
 
